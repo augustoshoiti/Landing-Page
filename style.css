@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+  }
+  
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-img {
+    width: 50px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 60px;
+}
+
+.header-menu-item {
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid #BCBCBC;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.ctd-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-1 {
+    font-weight: 700;
+    font-size: 270%;
+}
+
+.ctd-1-escrito {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-weight: 300;
+}
+
+.jogar {
+    width: 140px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.jogar:hover {
+    background-color: #979292;
+}
+
+.survivor {
+    width: 20%;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+    .survivor {
+      width: 0;
+    }
+  }
+
+.ctd-2 {
+    margin: 10% 0 1% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.ctd-paragrafo {
+    width: 70%;
+    font-weight: 300;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 35px;
+}
+
+.rodape {
+    border-top: 0.4px solid #BCBCBC;
+    padding: 16px;
+}
+
+.rodape-img {
+    width: 310px;
+    display: block;
+    margin: 0 auto;
+}
