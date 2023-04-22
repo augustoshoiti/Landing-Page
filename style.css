@@ -71,6 +71,10 @@ body {
     font-weight: 300;
 }
 
+.steam {
+    width: fit-content;
+}
+
 .jogar {
     width: 140px;
     padding: 10px;
