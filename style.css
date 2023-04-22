@@ -14,6 +14,9 @@ body {
     background-repeat: no-repeat;
     font-family: 'Chakra Petch', sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
   }
   
 .cabecalho {
@@ -44,8 +47,8 @@ body {
     padding: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-top: 10px;
+    flex: 1;
 }
 
 .ctd-1 {
@@ -117,7 +120,8 @@ body {
 
 .rodape {
     border-top: 0.4px solid #BCBCBC;
-    padding: 16px;
+    padding: 18px;
+    /* height: auto; */
 }
 
 .rodape-img {
